@@ -1,0 +1,59 @@
+*,*::before,*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Courier";
+    margin-bottom: 16px;
+}
+
+input{
+    border: 1px solid #000000;
+    outline: none;
+    font-family: "Courier";
+    font-size: 24px;
+    margin-bottom: 16px;
+    padding: 6px 2px;
+}
+
+input[type="number"]{
+    width: 64px;
+}
+
+label{
+    font-family: "Courier";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[type="button"]{
+    font-family: "Courier";
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    outline: none;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+button[type="button"]:active{
+    background-color: #DCDCDC;
+}
